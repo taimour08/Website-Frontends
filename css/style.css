@@ -1,0 +1,372 @@
+/* Headings h1, h2 etc need to be generic. If there's exception, make another class, dont do inline. 
+   Paragraphs generic */
+
+  
+
+   @media screen and (max-width: 1020px) {
+    body {
+      width: 800px;
+      background-color: wheat;
+      font-size: larger;
+    }
+
+  
+  }
+  
+  @media screen and (max-width: 810px) {
+    body {
+      width: 500px;
+      background-color: brown;
+      font-size: 2px;
+    }
+
+  
+  }
+  
+  @media screen and (max-width: 510px) {
+    body {
+      width: auto;
+      background-color: goldenrod;
+      font-size: 2px;
+    }
+
+   
+  }
+
+.container-fluid {
+
+    background-image: url("../img/bi.png"); 
+    /*max-width: unset;*/ 
+}
+   
+
+#cont2 {
+    background-color: transparent;
+}
+
+
+.container{
+    right: inherit;
+    width:1500px;
+    height:800px;
+    position:relative;
+    display:block;
+    padding: 0rem 0rem 0rem;
+    /*max-width: unset;*/ 
+    padding: 5px;
+    }  
+
+
+
+  .container::before {
+    content:"Yes";
+    background-image: url('../img/logo.png');
+    background-position: 650px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.2;
+    position:absolute;
+    top: 30px;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-2;
+    }   
+
+
+  #i1 {
+
+    padding: 5px;
+    width: 380px;
+    height: 400px;
+    padding: 0px;
+    margin: auto;    
+    display: block;
+  }
+
+  #i2 {
+
+    width: 260px;
+    height: 400px;
+    padding: 0px;
+    margin: auto;    
+    display: block;
+  }
+
+  #i3 {
+
+    width: 335px;
+    height: 400px;
+    padding: 0px;
+    margin: auto;    
+    display: block;
+  }
+
+  #i4 {
+      width: 380px;
+      height: 300px;
+  }
+
+  #i5 {
+    width: 440px;
+    height: 300px;
+}
+
+
+
+
+#c2 {   
+
+    background-image: url("../img/logo.png"); 
+    width:700px;
+    height:400px;
+    position:relative;
+    display:block;
+    padding:1rem;      
+}
+
+#c2::before {
+    opacity: 0.2; 
+}
+
+#colI {
+    background-image: url("../img/i4.png");
+    background-size: 510px 340px;
+    height: 340px;
+
+   
+   
+}
+
+#col2 {
+    background-image: url("../img/i5.png");
+}
+
+#col3 {
+    background-image: url("../img/i6.png");
+}
+
+#col4 {
+    background-color: rgb(70, 100, 236);
+}
+
+
+#r1 {
+    background-color: rgb(36, 125, 197);
+    font-size: small;
+    color :white;
+}
+
+#r2 {
+    background-color: beige;
+    opacity: 0.6;
+    font-size: small;
+    color : #0066eb;
+
+    
+    font-size:20px;
+    right: 16px;
+    font-family:sans-serif;
+  
+}
+
+#r3 {
+    background-color: transparent;
+    opacity: 0.8;
+    font-size:larger;
+    color :white;
+    padding: 250px 120px 15px;
+}
+
+#r4 {
+    background-color: transparent;
+    opacity: 0.6;
+    font-size:larger;
+    color :white;
+    padding: 15px 1px 0px;
+    bottom: 50ch;
+    left: 0;
+}
+
+#r5 {
+    background-color: transparent;
+    opacity:unset;
+    font-size:larger;
+    color :white;
+    height: 85px;   
+}
+
+#r6 {
+    background: transparent;
+    opacity: 1;
+}
+
+#r7 {
+    background: transparent;
+    height: 35px;
+}
+
+#r8 {
+    padding: 20px;
+}
+
+#r9 {
+   background: transparent;
+   opacity: 1;
+   height: 350px;
+}
+
+#col1 {
+
+    background-color: orange; font-size: 19px;
+}
+
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
+
+#cont {
+
+    background-color: aqua;
+    height: 200px;
+}
+
+#rect {
+    background-color: red;
+}
+
+
+.text {
+    position:absolute;
+    left:25px;
+    top:25px;
+    width:120px;
+    font-size:16px;
+    color:rgb(0, 17, 167);
+    font-family:sans-serif;
+}
+
+.text2 {
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:200px;
+    font-size:30px;
+    color:rgb(0, 17, 167);
+    font-family:'Lucida Sans Unicode', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text3 {
+ 
+    position:absolute;
+    left:10px;
+    top:30px;
+    color: white;
+    width: 150px;
+    
+}
+
+span.a {
+
+    color: orange;
+    display: block;
+    width: 250px;
+    height: 80px;
+    padding: 5px;
+
+}
+
+span.b {
+
+    color: orange;
+    position: relative;
+    display: block;
+    left: 8px;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+
+ /*   display: block;
+    width: 250px;
+    height: 80px;
+    padding: 5px;
+*/
+}
+
+
+.row {
+    background-color: beige ;
+    opacity: 0.6;
+    border: 1px solid black; 
+    color: white;
+    text-align: center;       
+}
+
+.col, .col-2, .col-4, .col-6, .col-3 {
+    border: 1px solid black;
+    opacity: 1;
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 40px;
+    background-color: #f4a91e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer; 
+    margin: 5px;
+  }
+
+  quote {
+    display: block;
+    text-align: left;
+  }
+
+  date {
+    color: #c59100;
+    font-weight: 700;
+}
+
+h1 {
+     text-align: center;
+     font-size: 38px;
+     color: rgb(0, 82, 204);     
+}
+
+h2 {
+    text-align: center;
+    font-size: 38px;
+    color: rgb(0, 82, 204);     
+}
+
+h3 {
+    text-align: left;
+    padding: 10px;
+    
+}
+
+h3:after {
+    background: none repeat scroll 0 0 white;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 40px;
+ }
+  

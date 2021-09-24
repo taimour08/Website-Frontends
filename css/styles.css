@@ -1,0 +1,164 @@
+
+h1 {
+    text-align: center;
+    background-color: lightgray;
+    margin-left: 15px;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 75px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.background1 {
+    background-color: lightcyan;
+    background-image: url("../img/ugg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    border: burlywood dotted 4px;    
+    
+}
+
+.header {
+    margin-top: 18px;
+    font-size: 26px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.navbar {
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.navbar-nav > .active > a{
+    color: red;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.logo {
+    font-size: 30px;
+    color: blueviolet;
+ 
+}
+
+.paragraph {
+    margin-top: -10px;
+    text-align: center;
+    width: 710px;
+    margin-left: 30px;
+    font-size: 23px;
+}
+
+.dropdown {
+    display: block;
+    color: white;
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: 6px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: transparent;   
+    z-index: 1;
+    margin-left: -30px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.nav-link:hover {
+    color: indianred;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    color:lightgrey;
+}
+
+
+
+
+.background2 {
+
+    background-color: lightcyan;
+    background-image: url("../img/bi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    margin-top: 10px;
+    border: white dotted 4px;    
+    
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 4px double peru; /* Green */
+    width: 200px;
+    height: 60px;
+    margin-left: 30px;
+    font-size: 22px;
+    transition-duration: 0.4s;
+  }
+
+ .button1:hover {
+     background-color:rgb(231, 162, 93);
+     
+ } 
+
+.container2 {
+
+    margin-top: 200px;
+}
+
+.row3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.cont1 {
+    border:lightpink dotted 4px;
+    background-color: aquamarine;     
+    opacity: 0.3;
+    margin-top: 30px;
+    margin-bottom: 400px;
+}
+
+
+.col-md-3 {
+
+    background-color: blue;
+    margin-top: -40px;
+    opacity: 1;
+
+}
+
+.col-2 {
+   margin-left: -15px;
+}
+
+.col-md-5 {
+    background-color: crimson;
+    border: darkolivegreen dotted 3px;
+    margin-top: -20px;
+}
+
+
+
